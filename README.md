@@ -77,40 +77,35 @@ I'm a **Software Engineer (AI)** who designs secure, scalable backend systems an
 ### Software Engineer (AI) · Infoswift Corp.
 **Remote, Irvine, CA · Jun 2026 – Present**
 
-- Built a full-stack insurance RPA tracking portal that gave 100+ agents real-time workflow visibility and reduced manual status inquiries by **80%**.
-- Implemented Backend-for-Frontend OAuth with Microsoft Entra External ID and MSAL Node, eliminating client-side token exposure.
+Built a full-stack RPA tracking portal giving 100+ insurance agents real-time visibility into automated workflows, which slashed manual status inquiries by **80%**. Client-side token exposure was a critical security risk, so I implemented a Backend-For-Frontend OAuth architecture using Microsoft Entra External ID and MSAL Node to keep tokens locked on the server. Also mapped Entra OIDs to legacy records in Azure Cosmos DB, achieving zero-downtime user migration and dynamic RBAC.
 
 <br>
 
 ### Research Assistant · Indiana University Bloomington
 **Bloomington, IN · Jan 2026 – May 2026**
 
-- Fine-tuned Llama 3 8B with LoRA for obstetric triage and reached **94% Clinical Safety Accuracy** through a gated RAG architecture.
-- Developed and evaluated retrieval and generation workflows for safety-critical clinical use cases.
+Built an obstetric triage classification model where hallucination wasn't an option. Started with standard prompting, then fine-tuned a Llama 3 8B model with LoRA to hit **94.0% Clinical Safety Accuracy**. To ground the predictions, I engineered a gated RAG architecture that dynamically retrieves clinical guidelines via vector search. Deployed the final 4-bit quantized SLM on high-performance computing clusters, eliminating cloud API latency and guaranteeing strict patient data privacy.
 
 <br>
 
 ### Software Engineer (AI) · Infoswift Corp.
 **Remote, Irvine, CA · Sep 2025 – Dec 2025**
 
-- Built a serverless Azure Functions and Docker pipeline that parallelized Gemini inference across **20,000+ files**.
-- Reduced end-to-end ETL latency by **98%**, from 15 minutes to 30 seconds.
+Built a multi-tenant microservice in FastAPI to process and isolate clinical data for 100+ concurrent tenants, securing endpoints with HMAC-signed JWTs and Redis rate-limiting. Analytics processing was bottlenecking on **20,000+ files**, so I engineered an asynchronous serverless ETL pipeline on Azure Functions and Docker to parallelize Gemini inference. This architectural shift **slashed end-to-end processing latency by 98%** (from 15 minutes to 30 seconds) while hitting 90% extraction accuracy on messy PDF reports using OCR and LangChain.
 
 <br>
 
 ### AI Engineer · Zion Cloud Solutions (ZionAI)
 **Glenview, IL · Jun 2025 – Aug 2025**
 
-- Developed production-oriented RAG and agentic pipelines with LangChain, Gemini, and Llama 3.
-- Designed retrieval, orchestration, and evaluation workflows for domain-specific AI applications.
+Deployed distributed RAG and agentic reasoning systems on Google Vertex AI (AutoML, Docker, Kubernetes) to accelerate infrastructure setup and Q&A workflows. Standard setups were taking too long, so I fine-tuned a Llama-3 8B model using LoRA, which slashed developer initialization time by 40%. Benchmarked few-shot prompting strategies across 50+ repositories to optimize policy analysis and built a robust validation framework across PostgreSQL and Azure SQL to safely handle 10,000+ concurrent records.
 
 <br>
 
 ### Software Engineer (Cloud/AWS) · Infoswift Corp.
 **Hyderabad, India · May 2023 – Jun 2024**
 
-- Reduced cloud costs by **20%** through AWS EC2 rightsizing, S3 archival, and workload optimization.
-- Improved incident response by **50%** with CloudWatch monitoring, alerting, and operational dashboards.
+Migrated manual deployment tasks into a fully automated CI/CD pipeline using AWS CodePipeline and GitHub Actions, which accelerated feature release cycles by 90% and dropped build times from 20 minutes to under 2 minutes. Cloud bills were drifting high, so I ran a rightsizing audit across 15+ EC2 instances, automated S3 archival policies, and set up CloudWatch monitoring. This cut infrastructure costs by **20%** and improved incident response time by **50%**.
 
 ---
 
