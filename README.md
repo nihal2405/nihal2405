@@ -181,7 +181,6 @@ I'm a **Software Engineer (AI)** who designs secure, scalable backend systems an
   <a href="mailto:sainihalk2002@gmail.com">Email</a> ·
   <a href="https://www.linkedin.com/in/sainihalkonduti">LinkedIn</a> ·
   <a href="https://sainihalkonduti.com">Portfolio</a> ·
-  <a href="tel:+18123699589">Phone</a>
 </p>
 
 <div align="center">
